@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index.html</title>
+    <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+</head>
+<body>
+    <!-- Search Bar -->
+    <div>
+        <div class="row justify-content-center">
+            <div>
+                <div class="input-group">
+                    <input type="text" placeholder="Search recipes...">
+                    <button type="button">Search</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Drop Down For search -->
+    <select id="category-search" style="max-width: 250px;">
+        <option value="all recipes">All Recipes</option>
+        <option value="Appetizer">Appetizer</option>
+        <option value="Main Course">Main Course</option>
+        <option value="Dessert">Dessert</option>
+        <option value="Beverage">Beverage</option>
+        <option value="Side Dish">Side Dish</option>
+        <option value="Vegan">Vegan</option>
+        <option value="Low Carb">Low Carb</option>
+        <option value="Gluten-Free">Gluten-Free</option>
+        <option value="Dairy-Free">Dairy-Free</option>
+        <option value="Nuts-Free">Nuts-Free</option>
+    </select>
+    <!-- Drop Down For Sort-->
+    <select id="category-sort" style="max-width: 250px;">
+        <option value="cook time">Cook Time</option>
+        <option value="A-Z">A-Z</option>
+        <option value="Z-A">Z-A</option>
+        <option value="date added">Date Added</option>
+    </select>
+
+</body>

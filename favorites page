@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorites</title>
+</head>
+<body>
+
+    <header>
+        <h1>My Favorites</h1>
+    </header>
+
+    <main>
+        <div id="favorites-list">
+
+            <!-- Favorite Recipe Card -->
+            <div class="recipe-card">
+                <img src="images/placeholder.jpg" alt="Recipe Image">
+
+                <div class="recipe-info">
+                    <h2>Recipe Name</h2>
+                    <p>Category: Main Course</p>
+                    <p>Cooking Time: 30 minutes</p>
+
+                    <div class="recipe-buttons">
+                        <button type="button">View Recipe</button>
+                        <button type="button">Edit</button>
+                        <button type="button">Delete</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Empty Favorites Message -->
+            <p id="empty-favorites" hidden>No favorites yet.</p>
+
+        </div>
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,96 @@
+
+all{
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    
+    'navBar navBar navBar'
+    'searchBar searchBar searchBar'
+    'main main main'
+    'footer footer footer';
+}
+
+
+
+body{
+    background-color: goldenrod;
+
+}
+
+button{
+    background-color: #43637E;
+    color: whitesmoke;
+    transition-property: scale;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 2s;
+}
+button:hover{
+    background-color: #3ba5c5;
+    color: whitesmoke;
+    transform:scale(1.3,1.3)
+}
+
+a{
+    font-family: 'Times New Roman', sans-serif;
+    color: #65DCD5;
+    font-weight: 900;
+    font-style: oblique;
+    transition-property: scale;
+    transition-duration: 5s;
+    transition-timing-function: ease;
+    transition-delay: 1s;
+}
+a:hover{
+    color: pink;
+}
+
+
+
+
+
+.recipe-card {
+  --bs-radius-5: 1rem;
+  --bs-spacer: 1rem;
+  --bs-primary-base: var(--bs-orange-500);
+  --bs-primary-bg: var(--bs-primary-base);
+  --bs-primary-bg-subtle: light-dark(var(--bs-orange-100), var(--bs-orange-900));
+  --bs-primary-fg: light-dark(var(--bs-orange-600), var(--bs-orange-400));
+  --bs-primary-border: light-dark(var(--bs-orange-300), var(--bs-orange-600));
+
+
+  box-shadow: 12px 12px 2px 1px rgb(0 0 255 / 0.2);
+}
+
+@media (max-width: 1024px){
+    img{
+    height: 300px;
+    width: 300px;
+    }
+    p{
+        font-weight: normal;
+    }
+    
+}
+@media (max-width: 768px){
+    img{
+    height: 250px;
+    width: 250px;
+    }
+    p{
+        font-weight: light;
+    }
+    
+}
+@media (max-width: 480px){
+    img{
+    height: 200px;
+    width: 200px;
+    }
+    p{
+        font-weight: lighter;
+    }
+    
+}
